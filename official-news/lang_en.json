@@ -1,0 +1,21 @@
+{
+  "OFFICIAL_NEWS": {
+    "TOTAL": "",
+    "ECONOMY": "",
+    "ENTERTAINMENT": "",
+    "IT": "",
+    "SOCIAL": "",
+    "POLITICS": "",
+    "SPORTS": "",
+    "DATE": "",
+    "NO_ROBOT_ID": "",
+    "NO_DATA": "",
+    "API_ERR_500": "",
+    "API_ERR_400": "",
+    "INTRO": "",
+    "TELL_FIRST": "",
+    "TELL_SECOND": "",
+    "TELL_THIRD": "",
+    "CLOSE": { "1": "", "2": "", "3": "", "4": "" }
+  }
+}

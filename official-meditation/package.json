@@ -1,0 +1,30 @@
+{
+  "name": "meditation.bot.pibo",
+  "description": "meditation service",
+  "version": "1.0.0",
+  "author": "circulus",
+  "main": "index.js",
+  "private": true,
+  "experimental": false,
+  "keywords": [
+    "circulus",
+    "pibo",
+    "bot",
+    "meditation"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
+    "i18next": "^17.3.1",
+    "josa-js": "0.0.2",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.15",
+    "node-wget": "^0.4.3"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}

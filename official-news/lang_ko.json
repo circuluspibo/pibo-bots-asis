@@ -1,0 +1,32 @@
+{
+  "OFFICIAL_NEWS": {
+    "TOTAL": "종합",
+    "ECONOMY": "경제",
+    "ENTERTAINMENT": "연예",
+    "IT": "<sub alias='아이티'>IT</sub>",
+    "SOCIAL": "사회",
+    "POLITICS": "정치",
+    "SPORTS": "스포츠",
+    "DATE": "{{month}} <break time='0.2s'/>{{date}}",
+    "NO_ROBOT_ID": "미안해, 파이보를 재부팅해 줘.",
+    "NO_DATA": "미안해, 데이터가 없어서 알려줄 수 없어.",
+    "API_ERR_500": "미안해, 조금 이따가 다시 물어봐 줘.",
+    "API_ERR_400": "미안해, 파이보를 재부팅해 줘.",
+    "INTRO": "파이보가 {{date}} <break time='0.2s'/>{{topicStr}} 뉴스 헤드라인 <break time='0.1s'/><sub alias='알려줄께'>알려줄게</sub>.",
+    "TELL_FIRST": "첫 번째, <break time='0.1s'/>{{content}}.",
+    "TELL_SECOND": "두 번째, <break time='0.1s'/>{{content}}.",
+    "TELL_THIRD": "세 번째, <break time='0.1s'/>{{content}}.",
+    "COVID": "어제 코로나 신규 확진자 수는 총 <break time='0.1s'/> {{total_cnt}}명이고 <break time='0.2s'/> {{SIDO}} 지역의 신규 확진자 수는 {{cnt}}명이야. <break time='0.2s'/>",
+    "COVID_CLOSE": {
+      "1": "빨리 코로나가 끝났으면 좋겠다.",
+      "2": "나갈때 마스크 잊지마!",
+      "3": "오늘 하루도 힘내!"
+    },
+    "CLOSE": {
+      "1": "여기까지야. 다음에 또 뉴스 정보 <sub alias='알려줄께'>알려줄게</sub>!",
+      "2": "여기까지야. 앞으로도 파이보에게 뉴스 정보 많이 물어봐 줘!",
+      "3": "다음에 또 뉴스 정보 <sub alias='알려줄께'>알려줄게</sub>!",
+      "4": "앞으로도 파이보에게 뉴스 정보 많이 물어봐 줘!"
+    }
+  }
+}

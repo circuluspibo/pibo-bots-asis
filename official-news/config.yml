@@ -1,0 +1,29 @@
+COMMON: &common
+  DEBUG: False
+  TESTING: False
+  MODULE_NAME: 'BOT_NEWS'
+  CLIENT_TYPE: '08f12867e7a16b1b9071ae92ca8b6e7e1698068f'
+
+DEV: &dev
+  <<: *common
+  DEBUG: True
+  CAPI_URL: 'https://dev-capi.circul.us'
+  RAPI_URL: 'https://dev-rapi.circul.us'
+
+STG: &stg
+  <<: *common
+  DEBUG: True
+  TESTING: True
+  CAPI_URL: 'https://stg-capi.circul.us'
+  RAPI_URL: 'https://stg-rapi.circul.us'
+
+OPS: &ops
+  <<: *common
+  CAPI_URL: 'https://ops-capi.circul.us'
+  RAPI_URL: 'https://ops-rapi.circul.us'
+
+TST: &tst
+  <<: *common
+  TESTING: True
+  CAPI_URL: 'https://test-capi.pibo.me'
+  RAPI_URL: 'https://test-rapi.pibo.me'
